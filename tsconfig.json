@@ -1,0 +1,42 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "module": "esnext",
+    "allowSyntheticDefaultImports": true,
+    "noUnusedLocals": true,
+    "jsx": "react-native",
+    "allowJs": true,
+    "lib": [
+      "dom",
+      "esnext"
+    ],
+    "baseUrl": "./packages",
+    "noEmit": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "alwaysStrict": true,
+    "noImplicitAny":  true,
+    "noImplicitThis":  true,
+    "strictBindCallApply": true,
+    "strictFunctionTypes":  true,
+    "strictPropertyInitialization": true,
+    "target": "es6",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "paths": {
+      "~/*": ["./*"],
+      "~/core.ui": ["./core-ui"],
+      "~/core.themes": ["./core-themes"],
+      "~/core.utils": ["./core-utils"],
+      "~/core.hooks": ["./core-hooks"],
+      "~/core.i18n": ["./core-i18n"],
+      "~/core.store": ["./core-store"],
+      "~/core.config": ["./core-config"],
+      "~/core.services": ["./core-services"],
+      "~/core.resources/*": ["./core-resources/*"]
+    }
+  }
+}
+

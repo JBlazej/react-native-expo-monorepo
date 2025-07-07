@@ -1,0 +1,10 @@
+{
+  "general.yes": "yes",
+  "general.home": "Home",
+  "screens": {
+    "onboarding": {
+      "title": "Welcome to the App",
+      "start": "Get Started"
+    },
+  }
+}

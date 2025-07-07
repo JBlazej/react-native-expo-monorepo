@@ -83,8 +83,8 @@ react-native-expo-monorepo/
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repo-url>
-   cd rn-monorepo-demo
+   git clone https://github.com/JBlazej/react-native-expo-monorepo.git
+   cd react-native-expo-monorepo
    ```
 
 2. **Install dependencies**

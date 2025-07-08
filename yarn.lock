@@ -1299,6 +1299,11 @@
   resolved "https://registry.yarnpkg.com/@janblazej/eslint-config-react-native/-/eslint-config-react-native-0.1.1.tgz#cf6ebef7103d622df0acc59647713ccab6733abf"
   integrity sha512-bJMP6i1ZGvw++X8HMI1gZL0nhlcu78uD5xxNeL3CEgJCLOk+wULK4fTfn4geP3oLH5n1tf36LquifzwMBxM8jw==
 
+"@janblazej/react-native-materials@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@janblazej/react-native-materials/-/react-native-materials-0.1.0.tgz#947d12d4f4afbe432a3a2ffa8609deb4e652fc83"
+  integrity sha512-9Qj2rgyX1YdoqwY2CbIrshSzpkaKKlcZc0znNG3fc0nkLnjiQIuRKd8b0K+jl5kgBCGbsUnA/3mKgYfFaXFFqg==
+
 "@jest/create-cache-key-function@^29.7.0":
   version "29.7.0"
   resolved "https://registry.yarnpkg.com/@jest/create-cache-key-function/-/create-cache-key-function-29.7.0.tgz#793be38148fab78e65f40ae30c36785f4ad859f0"

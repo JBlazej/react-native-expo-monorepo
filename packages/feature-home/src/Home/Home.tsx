@@ -1,4 +1,5 @@
-import {SafeAreaView} from 'react-native'
+import {MaterialView} from '@janblazej/react-native-materials'
+import {SafeAreaView, StyleSheet} from 'react-native'
 
 import {useTranslation} from '~/core.i18n'
 import {Text, VStack} from '~/core.ui'
@@ -8,8 +9,11 @@ export const Home = () => {
 
   return (
     <SafeAreaView style={{flex: 1}}>
-      <VStack px="s16" gap="s16" pt="s36">
-        <Text>{t('general.home')}</Text>
+      <VStack pt="s36" px="s16">
+        <VStack p="s16" borderRadius="r16" overflow="hidden">
+          <MaterialView material="ultra-thin" variant="dark" style={StyleSheet.absoluteFill} />
+          <Text>{t('general.home')}</Text>
+        </VStack>
       </VStack>
     </SafeAreaView>
   )
